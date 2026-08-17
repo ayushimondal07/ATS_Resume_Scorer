@@ -1,0 +1,29 @@
+.env
+.env.*
+!.env.example
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+venv/
+.venv/
+env/
+ENV/
+
+.streamlit/secrets.toml
+frontend/.streamlit/secrets.toml
+
+.vscode/
+
+.DS_Store
+Thumbs.db
+
+*.log
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# Large ML model files
+ml model/finetuned-bert/model.safetensors

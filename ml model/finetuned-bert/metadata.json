@@ -1,0 +1,28 @@
+{
+  "base_model": "all-mpnet-base-v2",
+  "dataset": "cleaned_resumeJD_pairs.csv",
+  "total_pairs": 389,
+  "train_pairs": 272,
+  "val_pairs": 58,
+  "test_pairs": 59,
+  "epochs": 10,
+  "batch_size": 16,
+  "warmup_steps": 17,
+  "pearson": 0.905,
+  "spearman": 0.9205,
+  "base_mae": 0.0874,
+  "base_rmse": 0.1089,
+  "finetuned_mae": 0.0455,
+  "finetuned_rmse": 0.0565,
+  "improvement_pct": 47.93,
+  "labels": [
+    "low",
+    "medium",
+    "high"
+  ],
+  "thresholds": {
+    "high": 0.55,
+    "medium": 0.35,
+    "low": 0.0
+  }
+}
